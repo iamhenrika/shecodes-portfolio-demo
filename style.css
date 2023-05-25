@@ -33,6 +33,10 @@ p {
   line-height: 1.5;
 }
 
+.container h2 {
+  text-align: left;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -97,9 +101,13 @@ p {
   color: white;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 576px) {
   button {
     display: block;
     margin: 0 auto;
+  }
+
+  .container h2 {
+    text-align: center;
   }
 }
